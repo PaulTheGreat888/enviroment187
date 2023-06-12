@@ -1,0 +1,278 @@
+.navbar { 
+    font-size: 1rem; 
+  } 
+  
+
+@media (min-width: 768px) { 
+    .navbar { 
+      font-size: 1.4rem; 
+    } 
+} 
+
+  
+
+@media (min-width: 992px) { 
+    .navbar { 
+      font-size: 1.4rem; 
+    } 
+  } 
+
+  
+
+.navbar-toggler { 
+    border: none; 
+    outline: none; 
+    background-color: transparent; 
+} 
+
+  
+
+.navbar-toggler-icon { 
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="rgba(255, 255, 255, 0.5)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg>'); 
+} 
+
+  
+
+.navbar-toggler-text { 
+    margin-left: 8px; 
+    font-size: 1rem; 
+} 
+
+  
+
+.navbar-nav { 
+    display: flex; 
+    justify-content: center; 
+} 
+
+  
+
+.navbar-nav .nav-item { 
+    text-align: center; 
+    padding: 0.5rem 1rem; 
+} 
+
+  
+
+@media (max-width: 770px) { 
+    .navbar-nav { 
+      flex-direction: column; 
+      align-items: flex-start; 
+    } 
+
+  
+
+.navbar-nav .nav-item { 
+    width: 100%; 
+    text-align: left; 
+  } 
+} 
+
+
+
+.carousel-item img {
+  max-height: 2000px;
+  width: auto;
+  margin: 0 auto;
+}
+
+@media (min-width: 1100px) {
+  .carousel-item img {
+    max-height: 800px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  #carouselExampleCaptions .carousel-item {
+    height: 766px;
+  }
+}
+
+
+.container2 {
+  padding: 30px;
+}
+
+.container2 .row .col-md-6 .content-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.container2 .row .col-md-6 .content-box:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+}
+
+.container2 .row .col-md-6 .content-box h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.container2 .row .col-md-6 .content-box p {
+  color: #666;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 16px;
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-content
+{
+  font-family: 'Lato', sans-serif;
+  padding-left: 15px;
+  padding-right:15px;
+}
+
+
+:root {
+    --primary-color: #333;
+    --secondary-color: #555;
+}
+
+.containerinf {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.containerinf h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 92px;
+}
+
+.containerinf .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerinf .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.containerinf .col-lg-6 p {
+    font-size: 16px;
+    color: var(--secondary-color);
+    text-align: justify;
+}
+
+.containerinf .col-lg-6 img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .containerinf .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.unique-content {
+  padding: 80px 10px 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.unique-content h1 {
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.unique-content p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.carousel-inner {
+  max-height: 500px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .unique-content {
+    padding: 70px 15px 0;
+  }
+
+  .carousel-inner {
+    max-height: 350px;
+  }
+}
+
+
+.contact-section {
+  padding: 120px 0;
+  background-color: #f9f9f9;
+}
+
+.contact-heading {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-form .form-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.submit-btn {
+  width: 100%;
+}
+
+
+.trail {
+  position: absolute;
+  font-size: 20px; 
+  pointer-events: none;
+}
